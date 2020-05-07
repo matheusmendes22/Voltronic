@@ -4,9 +4,8 @@
  <? include 'inc/inc.seo.php'; ?>
 </head>
 <body>
-
     <? include 'inc/inc.header.php'; ?>
-<!-- Carrossel container -->
+    <!-- Carrossel container -->
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -33,71 +32,6 @@
         <span class="sr-only">Próximo</span>
       </a>
     </div>
-
-    <!-- Produtos -->
-    <div class="site-section bg-light pt-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 ml-auto">
-            <div class="row mb-4">
-              <div class="col-12 text-center mb-4">
-                <h3 class="section-sub-title">Produtos</h3>
-                <h2 class="section-title mb-4">Conheça nossos produtos</h2>
-              </div>
-              <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-                <div class="service h-100">
-                  <img src="img/products/produto-1.jpg" alt="">
-                  <h3 class="text-center mt-3">Web Design</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nostrum ducimus temporibus, quod ipsa fuga fugiat deserunt.</p>
-                  <p><a href="#" class="readmore">Learn more</a></p>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-                <div class="service h-100">
-                  <img src="img/products/produto-1.jpg" alt="">
-                  <h3 class="text-center mt-3">Web Development</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nostrum ducimus temporibus, quod ipsa fuga fugiat deserunt.</p>
-                  <p><a href="#" class="readmore">Learn more</a></p>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-                <div class="service h-100">
-                  <img src="img/products/produto-1.jpg" alt="">
-                  <h3 class="text-center mt-3">Web Apps</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nostrum ducimus temporibus, quod ipsa fuga fugiat deserunt.</p>
-                  <p><a href="#" class="readmore">Learn more</a></p>
-                </div>
-              </div>
-    
-              <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-                <div class="service h-100">
-                  <img src="img/products/produto-1.jpg" alt="">
-                  <h3 class="text-center mt-3">Mobile Apps</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nostrum ducimus temporibus, quod ipsa fuga fugiat deserunt.</p>
-                  <p><a href="#" class="readmore">Learn more</a></p>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-                <div class="service h-100">
-                  <img src="img/products/produto-1.jpg" alt="">
-                  <h3 class="text-center mt-3">CopyWriting</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nostrum ducimus temporibus, quod ipsa fuga fugiat deserunt.</p>
-                  <p><a href="#" class="readmore">Learn more</a></p>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-                <div class="service h-100">
-                  <img src="img/products/produto-1.jpg" alt="">
-                  <h3 class="text-center mt-3">Search Engine Optimization</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nostrum ducimus temporibus, quod ipsa fuga fugiat deserunt.</p>
-                  <p><a href="#" class="readmore">Learn more</a></p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
     <!-- Sobre -->
     <section class="about-area pt-5 pb-4">
         <div class="container">
@@ -118,6 +52,51 @@
         </div>
       </div>
     </section>
+    <!-- Serviços -->
+    <div class="site-section bg-light pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 ml-auto">
+            <div class="row mb-4">
+              <div class="col-12 text-center mb-4">
+                <h3 class="section-sub-title">Serviços</h3>
+                <h2 class="section-title mb-4">Conheça os serviços oferecidos pela Voltronic</h2>
+              </div>
+              <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+                <div class="service h-100">
+                            <img class="img-fluid w-100" src="img/produtos/baterias.jpg" alt="">
+                  <h3 class="text-center mt-3">Comércio de No-Breaks e Estabilizadores</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nostrum ducimus temporibus, quod ipsa fuga fugiat deserunt.</p>
+                  <p><a href="#" class="readmore">Learn more</a></p>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+                <div class="service h-100">
+                            <img class="img-fluid w-100" src="img/produtos/no-break.jpg" alt="">
+                  <h3 class="text-center mt-3">Web Development</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nostrum ducimus temporibus, quod ipsa fuga fugiat deserunt.</p>
+                  <p><a href="#" class="readmore">Learn more</a></p>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+                <div class="service h-100">
+                  <img src="img/produtos/20190628184154.jpg" alt="">
+                  <h3 class="text-center mt-3">Inversores solares</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nostrum ducimus temporibus, quod ipsa fuga fugiat deserunt.</p>
+                  <p><a href="#" class="readmore">Learn more</a></p>
+                </div>
+              </div>
+              <div class="col-md-12 d-flex justify-content-center">
+                <a class="btn main_btn" href="produtos">
+                  Conheça todos nossos produtos
+                </a>
+              </div>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- CTA -->
     <section class="hotline-area text-center area-padding">
         <div class="container">
@@ -130,6 +109,51 @@
             </div>
         </div>
     </section>
+     <!-- Produtos -->
+     <div class="site-section bg-light pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 ml-auto">
+            <div class="row mb-4">
+              <div class="col-12 text-center mb-4">
+                <h3 class="section-sub-title">Produtos</h3>
+                <h2 class="section-title mb-4">Conheça nossos produtos</h2>
+              </div>
+              <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+                <div class="service h-100">
+                            <img class="img-fluid w-100" src="img/produtos/baterias.jpg" alt="">
+                  <h3 class="text-center mt-3">Baterias</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nostrum ducimus temporibus, quod ipsa fuga fugiat deserunt.</p>
+                  <p><a href="#" class="readmore">Saiba mais</a></p>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+                <div class="service h-100">
+                            <img class="img-fluid w-100" src="img/produtos/no-break.jpg" alt="">
+                  <h3 class="text-center mt-3">No Breaks</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nostrum ducimus temporibus, quod ipsa fuga fugiat deserunt.</p>
+                  <p><a href="#" class="readmore">Saiba mais</a></p>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+                <div class="service h-100">
+                  <img src="img/produtos/20190628184154.jpg" alt="">
+                  <h3 class="text-center mt-3">Inversores Solares</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nostrum ducimus temporibus, quod ipsa fuga fugiat deserunt.</p>
+                  <p><a href="#" class="readmore">Saiba mais</a></p>
+                </div>
+              </div>
+              <div class="col-md-12 d-flex justify-content-center">
+                <a class="btn main_btn" href="produtos">
+                  Conheça todos nossos produtos
+                </a>
+              </div>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Footer -->
     <? include 'inc/inc.footer.php'; ?>
     <? include 'inc/inc.js.php'; ?>
