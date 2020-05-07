@@ -37,14 +37,8 @@
                             <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li> 
                             <li class="nav-item"><a class="nav-link" href="sobre-nos.php">Sobre Nós</a></li> 
                             <li class="nav-item"><a class="nav-link" href="#">Produtos</a></li> 
-                            <li class="nav-item submenu dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Serviços</a>
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">Blog Details</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">element</a></li>
-                                </ul>
-                            </li> 
+                            <li class="nav-item"><a class="nav-link" href="#">Serviços</a></li> 
+                            <li class="nav-item"><a class="nav-link" href="#">Parceiros</a></li> 
                             <li class="nav-item"><a class="nav-link" href="contato.php">Contato</a></li>
                         </ul>
                     </div>
