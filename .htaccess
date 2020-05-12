@@ -1,0 +1,29 @@
+<Files ~ "^.*\.([Hh][Tt][Aa])">
+  Order Allow,Deny
+  Deny From All
+  Satisfy All
+</Files>
+
+<IfModule mod_autoindex.c>
+  Options -Indexes
+</IfModule>
+
+ErrorDocument 400 /erro
+ErrorDocument 401 /erro
+ErrorDocument 403 /erro
+ErrorDocument 404 /erro
+ErrorDocument 500 /erro
+
+<IfModule mod_rewrite.c>
+
+    RewriteEngine On
+
+
+
+# SE A PÁGINA ESTIVER DENTRO DO SOURCE UTILIZAR ESSA OTIMIZAÇÃO DE URL
+
+  RewriteRule ^home?$ index.php [NC]
+  RewriteRule ^([a-z,0-9,A-Z,_-]+)\/?$ $1.php [NC]
+
+ 
+</IfModule>

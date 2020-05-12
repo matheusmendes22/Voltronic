@@ -1,0 +1,38 @@
+@import "variables";
+.addres-area{
+    background-color: rgb(70, 6, 6);
+    .single-address{
+        position: relative;
+        margin-top: 53px;
+        z-index: 0;
+        .addres-icon {
+            position: absolute;
+            top: -53px;
+            right: 0;
+            left: 0;
+            margin: auto; 
+        }
+        h3{
+            color: #fff;
+            font-size: 24px;
+            font-weight: 400;
+            position: relative;
+            z-index: 9;
+        }
+        p{
+            font-size: 16px;
+            color: #a9a9a9;
+            line-height: 28px;
+            margin-bottom: 21px;
+            position: relative;
+            z-index: 9;
+        }
+        a{
+            position: relative;
+            z-index: 9;
+            background-color: $baseColor;
+            color: #fff !important;
+            padding: 3px 10px;
+        }
+    }
+}
